@@ -15,3 +15,7 @@ This project combines **SQL** and **Tableau** to analyze data related to social 
 ## 📊 How to view the Dashboard
 1. Download the `tableau renewable energy project main.twbx` file.
 2. Open it using **Tableau Desktop** or **Tableau Public**.
+
+SQL: Identified the Top 5 Government Welfare schemes based on [apna criteria likhein, e.g., budget or reach].
+
+Tableau: Visualized the significant growth in Renewable Energy production over the years.
