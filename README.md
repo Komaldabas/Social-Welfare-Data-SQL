@@ -5,11 +5,13 @@ This project combines **SQL** and **Tableau** to analyze data related to social 
 ## 🚀 Key Features
 * **SQL Analysis:** Comprehensive queries to manage and analyze project scheme data.
 * **Tableau Dashboard:** An interactive visualization created to track renewable energy metrics.
+* **ASP.NET MVC:** Implemented a structured **Model-View-Controller** architecture for the project.
 * **Web Integration:** Basic frontend structure (HTML/CSS) to showcase project results.
 
 ## 🛠️ Tech Stack
 * **Data Analysis:** SQL
 * **Visualization:** Tableau (`.twbx` file included)
+* **Architecture:** ASP.NET MVC (Models, Views, Controllers)
 * **Frontend:** HTML, CSS
 
 ## 📊 How to view the Dashboard
