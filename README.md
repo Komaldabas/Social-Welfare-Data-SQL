@@ -20,3 +20,8 @@ SQL: Identified the Top 5 Government Welfare schemes based on [apna criteria lik
 
 Tableau: Visualized the significant growth in Renewable Energy production over the years.
 **Web Development:** Built a responsive front-end from scratch using **HTML & CSS**, featuring 'About' and 'Contact' sections to showcase the project professionally.
+## 💻 ASP.NET MVC Implementation
+Implemented the **MVC (Model-View-Controller)** architecture to demonstrate clean code practices:
+- **Models:** Defined data structures and logic.
+- **Views:** Created the user interface for project display.
+- **Controllers:** Handled the communication between user input and model data.
