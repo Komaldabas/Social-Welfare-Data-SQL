@@ -1,0 +1,9 @@
+public class EmployeeController : Controller {
+    // Action Method to show list
+    public ActionResult Index() {
+        var empList = new List<Employee>(); // Data create kiya
+        empList.Add(new Employee { ID=1, Name="Rahul", Department="IT" });
+        
+        return View(empList); // Data ko View ki taraf bhej diya
+    }
+}

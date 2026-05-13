@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    font-family: Arial;
+
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    background:#333;
+    color:white;
+    padding: 15px;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.logo{
+    font-size: 22px;
+   font-weight: bold;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    color:#333;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 40px;
+}
+.card{
+    background: lightblue;
+    padding: 40px;
+    text-align:center ;
+    border-radius: 10px;
+    font-size: 22px;
+    transition: 0.3S;
+}
+.card:hover{
+    background: deepskyblue;
+    transform: scale(1.05);
+}
+
+@media(max-width:768px){
+    .navbar{
+    flex-direction: column;
+    align-items: center;
+}
+.nav-links{
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+}
+.cards{
+    grid-template-columns: 1fr;
+}
+h1{
+    font-size: 35px;
+}
+}
+.btn{
+    display: block;
+    margin: 20px auto;
+    padding: 12px 25px;
+    border: none;
+    background: #333;
+    color: white;
+font-size: 18px;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.btn.hover{
+    background: black;
+}
+footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+transition: 0.3s ease;

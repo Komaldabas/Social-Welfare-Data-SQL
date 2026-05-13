@@ -1,0 +1,8 @@
+public class Employee {
+    public int ID { get; set; } // Unique ID for each employee
+    
+    [Required] // Validation: Naam khali nahi chhod sakte
+    public string Name { get; set; } 
+    
+    public string Department { get; set; }
+}

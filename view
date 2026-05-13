@@ -1,0 +1,10 @@
+@model IEnumerable<YourProject.Models.Employee> 
+
+<h2>Employee List</h2>
+<table>
+    @foreach (var item in Model) {
+        <tr>
+            <td>@item.Name</td> <td>@item.Department</td>
+        </tr>
+    }
+</table>
