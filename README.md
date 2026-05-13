@@ -19,3 +19,4 @@ This project combines **SQL** and **Tableau** to analyze data related to social 
 SQL: Identified the Top 5 Government Welfare schemes based on [apna criteria likhein, e.g., budget or reach].
 
 Tableau: Visualized the significant growth in Renewable Energy production over the years.
+**Web Development:** Built a responsive front-end from scratch using **HTML & CSS**, featuring 'About' and 'Contact' sections to showcase the project professionally.
